@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p, h1, h2, h3, h4, h5, h6 {
+  @apply font-poppins font-medium text-black;
+}
+
+/* Mobile styles */
+h1 {
+  @apply text-[44.8px]; /* 70% of 64px */
+}
+
+h2 {
+  @apply text-[28px]; /* 70% of 40px */
+}
+
+h3 {
+  @apply text-[22.4px]; /* 70% of 32px */
+}
+
+h4 {
+  @apply text-[16.8px]; /* 70% of 24px */
+}
+
+h5 {
+  @apply text-[14px]; /* 70% of 20px */
+}
+
+h6 {
+  @apply text-[11.2px]; /* 70% of 16px */
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  h1 {
+    @apply text-[64px];
+  }
+
+  h2 {
+    @apply text-[40px];
+  }
+
+  h3 {
+    @apply text-[32px];
+  }
+
+  h4 {
+    @apply text-[24px];
+  }
+
+  h5 {
+    @apply text-[20px];
+  }
+
+  h6 {
+    @apply text-[16px];
+  }
+}

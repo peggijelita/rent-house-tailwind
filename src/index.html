@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#FCFCFC]">
+    <!-- Section 1 -->
+    <section id="hero" class="pb-[100px]">
+      <div class="container mx-auto grid grid-cols-12 px-4 lg:px-16 xl:px-24">
+        <div class="col-span-12 lg:col-span-7">
+          <h1>
+            Ready to <br />
+            find your new home
+          </h1>
+        </div>
+        <div class="col-span-12 lg:col-span-5">
+          <div class="flex">
+            <!-- Seperator -->
+            <div class="mt-14 h-[3px] w-[38px] bg-[#F58634]"></div>
+            <h5 class="mt-11 pl-4 text-[20px] font-light text-gray-400">
+              looking for a house with a low price and quality here, and sell
+              your house quickly here
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background Image -->
+      <!-- nah ini kan enggak ada containernya jadi ketika -->
+      <div class="container mx-auto">
+        <div
+          class="relative h-[483px] bg-cover bg-no-repeat"
+          style="background-image: url(img/hero.svg)"
+        >
+          <div class="absolute -bottom-4 -right-0 -mb-8">
+            <div
+              class="flex h-[112px] w-full items-center justify-between gap-10 space-x-4 bg-[#FFFFFF] p-4 pl-10"
+            >
+              <div class="flex flex-col items-start space-y-1">
+                <button class="text-left font-medium">Select city</button>
+                <h6 class="font-normal text-[#828282]">Jakarta</h6>
+              </div>
+              <div class="flex flex-col items-start space-y-1">
+                <button class="text-left font-medium">Price</button>
+                <h6 class="font-normal text-[#828282]">$1000 - $2000</h6>
+              </div>
+              <div class="flex flex-col items-start space-y-1">
+                <button class="text-left font-medium">Rooms</button>
+                <h6 class="font-normal text-[#828282]">3 rooms</h6>
+              </div>
+              <div class="flex flex-col items-start space-y-1">
+                <button class="text-left font-medium">Footage</button>
+                <h6 class="font-normal text-[#828282]">2 footage</h6>
+              </div>
+
+              <div>
+                <button
+                  class="rounded bg-[#F58634] p-4 px-4 font-poppins text-[16px] font-normal text-[#FFFFFF]"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section 1-->
+
+    <!-- Section 2 -->
+    <section id="2" class="pb-[100px]">
+      <div class="container mx-auto px-4 lg:px-16 xl:px-24">
+        <!-- Flex container for Title and Buttons -->
+        <div class="mb-8 flex items-center justify-between">
+          <!-- Title -->
+          <h2>The latest</h2>
+          <!-- Buttons container -->
+          <div class="flex space-x-4">
+            <h4 class="font-light text-[#F58634]">For sale</h4>
+            <h4 class="font-light text-[#828282]">To rent</h4>
+            <h4 class="font-medium">View all</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Flex container for Images and Text -->
+      <div
+        class="container mx-auto grid grid-cols-12 gap-7 px-4 lg:px-16 xl:px-24"
+      >
+        <!-- Container for each house -->
+        <div class="col-span-12 lg:col-span-4">
+          <div
+            class="relative mb-8 bg-cover bg-center"
+            style="background-image: url(&quot;img/1.png&quot;); height: 351px"
+          >
+            <div
+              class="absolute right-4 top-4 flex h-20 w-20 rounded-full bg-transparent"
+            >
+              <button
+                id="love-button-1"
+                class="m-auto rounded-full p-4 text-2xl text-transparent transition duration-300 ease-in-out hover:bg-red-100"
+              >
+                ❤️
+              </button>
+            </div>
+            <button
+              class="absolute bottom-0 left-0 bg-white px-4 py-3 font-poppins text-[16px] font-medium text-[#F58634]"
+            >
+              3 room
+            </button>
+          </div>
+          <div>
+            <div class="font-poppins text-[32px] font-medium">Orange House</div>
+            <p class="font-poppins text-[16px] font-light text-[#828282]">
+              Jl Klapanunggal, cileungsi, bogor
+            </p>
+            <p class="font-poppins text-[24px] font-medium text-[#F58634]">
+              $1,435,000
+            </p>
+          </div>
+        </div>
+
+        <div class="col-span-12 lg:col-span-4">
+          <div
+            class="relative mb-8 bg-cover bg-center"
+            style="background-image: url(&quot;img/2.png&quot;); height: 351px"
+          >
+            <div
+              class="absolute right-4 top-4 flex h-20 w-20 rounded-full bg-transparent"
+            >
+              <button
+                id="love-button-2"
+                class="m-auto rounded-full p-4 text-2xl text-transparent transition duration-300 ease-in-out hover:bg-red-100"
+              >
+                ❤️
+              </button>
+            </div>
+            <button
+              class="absolute bottom-0 left-0 bg-white px-4 py-3 font-poppins text-[16px] font-medium text-[#F58634]"
+            >
+              2 room
+            </button>
+          </div>
+          <div>
+            <div class="font-poppins text-[32px] font-medium">White House</div>
+            <p class="font-poppins text-[16px] font-light text-[#828282]">
+              Jl Klapanunggal, cileungsi, bogor
+            </p>
+            <p class="font-poppins text-[24px] font-medium text-[#F58634]">
+              $1,200,500
+            </p>
+          </div>
+        </div>
+
+        <div class="col-span-12 lg:col-span-4">
+          <div
+            class="relative mb-8 bg-cover bg-center"
+            style="background-image: url(&quot;img/3.png&quot;); height: 351px"
+          >
+            <div
+              class="absolute right-4 top-4 flex h-20 w-20 rounded-full bg-transparent"
+            >
+              <button
+                id="love-button-3"
+                class="m-auto rounded-full p-4 text-2xl text-transparent transition duration-300 ease-in-out hover:bg-red-100"
+              >
+                ❤️
+              </button>
+            </div>
+            <button
+              class="absolute bottom-0 left-0 bg-white px-4 py-3 font-poppins text-[16px] font-medium text-[#F58634]"
+            >
+              2 room
+            </button>
+          </div>
+          <div>
+            <div class="font-poppins text-[32px] font-medium">Green House</div>
+            <p class="font-poppins text-[16px] font-light text-[#828282]">
+              Jl Klapanunggal, cileungsi, bogor
+            </p>
+            <p class="font-poppins text-[24px] font-medium text-[#F58634]">
+              $2,300,500
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section 2 -->
+
+    <!-- Section 3 -->
+    <section id="2" class="pb-[100px]">
+      <div class="container mx-auto px-4 lg:px-16 xl:px-24">
+        <div class="mb-8 flex items-center justify-between">
+          <h2>
+            Some people are very <br />
+            satisfied buying a house here
+          </h2>
+
+          <!-- Buttons container -->
+          <div class="flex space-x-4">
+            <h4 class="border-b-2">View all</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Container -->
+      <div
+        class="container mx-auto grid grid-cols-12 gap-7 px-4 lg:px-16 xl:px-24"
+      >
+        <div class="col-span-12 lg:col-span-6">
+          <div
+            class="relative mb-8 w-full bg-cover"
+            style="background-image: url(img/image-1.png); height: 400px"
+          >
+            <button
+              class="absolute bottom-0 left-0 bg-white px-4 py-3 font-poppins text-[16px] font-medium text-[#F58634]"
+            >
+              Jone Doe
+            </button>
+          </div>
+
+          <div>
+            <h4 class="font-normal">
+              I am very satisfied buying a house <br />
+              are because it is fast and easy
+            </h4>
+          </div>
+        </div>
+
+        <div class="col-span-12 lg:col-span-6">
+          <div
+            class="relative mb-8 w-full bg-cover"
+            style="background-image: url(img/image-2.png); height: 400px"
+          >
+            <button
+              class="absolute bottom-0 left-0 bg-white px-4 py-3 font-poppins text-[16px] font-medium text-[#F58634]"
+            >
+              Angel Doe
+            </button>
+          </div>
+
+          <div>
+            <h4 class="font-normal">
+              Buying a house here is very cheap <br />
+              and high quality
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section 3 -->
+
+    <!-- Section 4 -->
+    <section id="3" class="pb-[100px]">
+      <div class="container mx-auto px-4 lg:px-16 xl:px-24">
+        <!-- Section 4 title for mobile -->
+        <div class="mb-8 flex items-center justify-between">
+          <h2>
+            Always check our <br />
+            latest blog
+          </h2>
+          <h4 class="border-b-2">View all</h4>
+        </div>
+      </div>
+      <div
+        class="container mx-auto grid grid-cols-12 gap-7 px-4 lg:px-16 xl:px-24"
+      >
+        <div class="col-span-12 lg:col-span-6">
+          <div
+            class="relative mb-8 w-full bg-cover"
+            style="background-image: url(img/4.png); height: 400px"
+          >
+            <div class="absolute bottom-0 left-0 flex bg-white p-4">
+              <img
+                src="img/avatar.png"
+                alt="Profile Picture"
+                class="mr-4 h-12 w-12 rounded-full"
+              />
+              <div>
+                <h5 class="font-poppins text-lg font-medium">Yusuf Firdaus</h5>
+                <h6 class="font-poppins text-sm font-light">admin</h6>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4>Tips and tricks in choosing a house</h4>
+            <h6 class="text-gray-400">
+              tips and tricks to buy a house easily here is to buy at a low
+              price
+            </h6>
+          </div>
+        </div>
+        <div class="col-span-12 flex lg:col-span-6">
+          <div class="w-full justify-between">
+            <div class="mb-4 flex w-full items-center justify-between">
+              <h4>
+                Creating a clean <br />
+                and elegant home
+              </h4>
+              <img src="img/5.png" class="h-[184px]" alt="image" />
+            </div>
+            <div class="flex w-full items-center justify-between">
+              <h4>
+                Creating a clean <br />
+                and elegant home lorem
+              </h4>
+              <img src="img/5.png" class="h-[184px]" alt="image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section 4 -->
+
+    <!-- Subscribe section -->
+    <section id="3" class="pb-[100px]">
+      <div class="container mx-auto px-4 lg:px-16 xl:px-24">
+        <div
+          class="flex h-[448px] flex-col items-center justify-center bg-[#F58634]"
+        >
+          <h4
+            class="text-center text-[48px] text-[#FFFFFF] sm:text-[36px] md:text-[48px]"
+          >
+            Subscribe to get a discount <br />
+            of 30%
+          </h4>
+
+          <div
+            class="mx-auto mt-8 flex h-[104px] w-full max-w-[740px] items-center bg-[#FFFFFF] px-4 sm:px-6 md:px-8 lg:px-10"
+          >
+            <div class="flex w-full items-center justify-between">
+              <h6 class="font-normal">Enter your email address</h6>
+              <button
+                class="rounded bg-[#F58634] p-4 px-4 font-poppins text-[16px] font-normal text-[#FFFFFF]"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  End Subscribe -->
+
+    <!-- Footer Section -->
+    <section id="3" class="pb-[100px]">
+      <div
+        class="container mx-auto flex items-center justify-between px-4 lg:px-16 xl:px-24"
+      >
+        <p class="font-poppins text-[24px] font-medium">Omah by @dzakimuzh</p>
+        <img src="img/Icons-footer.png" alt="Icon" class="h-auto w-[100px]" />
+      </div>
+    </section>
+    <!-- End Footer Section -->
+
+    <!-- JavaScript for Love Button -->
+    <script>
+      // Function to toggle love button
+      function toggleLove(buttonId) {
+        const button = document.getElementById(buttonId);
+        button.classList.toggle("text-transparent");
+        button.classList.toggle("text-red-500");
+      }
+
+      // Adding event listeners to each love button
+      document
+        .getElementById("love-button-1")
+        .addEventListener("click", function () {
+          toggleLove("love-button-1");
+        });
+
+      document
+        .getElementById("love-button-2")
+        .addEventListener("click", function () {
+          toggleLove("love-button-2");
+        });
+
+      document
+        .getElementById("love-button-3")
+        .addEventListener("click", function () {
+          toggleLove("love-button-3");
+        });
+    </script>
+  </body>
+</html>
