@@ -17,4 +17,6 @@ npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch
 
 Open in your browser or live server
 
+Webside demo: https://omah-rent.netlify.app/
+
 
